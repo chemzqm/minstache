@@ -87,7 +87,7 @@ function compile(str) {
  */
 
 function assertProperty(prop) {
-  if (!prop.match(/^[\w.]+$/)) throw new Error('invalid property "' + prop + '"');
+  if (!prop.match(/^[\w.\[\]\"\']+$/)) throw new Error('invalid property "' + prop + '"');
 }
 
 /**
