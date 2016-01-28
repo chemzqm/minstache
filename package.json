@@ -12,7 +12,7 @@
     "commander": "2.9.0"
   },
   "devDependencies": {
-    "mocha": "*",
+    "mocha": "2.4.5",
     "should": "*"
   },
   "bin": {
